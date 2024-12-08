@@ -12,7 +12,8 @@ The primary goal of this project is to create a predictive model for early detec
 ## 🛠️ **Steps Involved**  
 
 ### 1️⃣ **Data Cleaning**  
-- Utilized **Pandas** for data preprocessing, ensuring the dataset was clean and ready for analysis.  
+- Utilized **Pandas** for data preprocessing, ensuring the dataset was clean and ready for analysis.
+- Used **LabelEncoder** to convert the Target Variable values of "Level" into numerical values and stored into "Level_Encoded" column.  
 
 ### 2️⃣ **Feature Selection**  
 - Applied **Recursive Feature Elimination (RFE)** to identify the most significant features contributing to the prediction.  
